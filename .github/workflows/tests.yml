@@ -21,9 +21,6 @@ name: tests
 # Widen PORTABLE_TESTS as modules become platform-clean.
 
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
 
 concurrency:
